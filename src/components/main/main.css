@@ -1,0 +1,221 @@
+.main {
+	height: 100vh;
+	width: 100%;
+	padding: 0px 50px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	overflow-y: scroll;
+	position: relative;
+	background: #100b01;
+	color: #fcfcfc;
+	/* border: 1px solid #000; */
+}
+
+.search-pane {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 20px;
+	gap: 80px;
+	/* border: 1px solid red; */
+}
+.arrows {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	color: #676669;
+}
+.search-container {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	background-color: #fff;
+	height: 50px;
+	/* max-width: 500px; */
+	padding: 5px 5px;
+	padding-left: 15px;
+	/* padding-right: 8px; */
+	border-radius: 10px;
+	color: #676669;
+	/* border: 1px solid green; */
+}
+.searchbar {
+	height: 40px;
+	width: 100%;
+	/* border: none; */
+	padding: 15px;
+	font-size: 16px;
+	/* border: 1px solid black; */
+}
+.searchbar::placeholder {
+	font-size: 14px;
+}
+.searchbar:focus {
+	outline: none;
+}
+
+.form-bar {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 5px;
+	/* border: 1px solid blue; */
+}
+.btn {
+	border: none;
+	background-color: #fca300;
+	height: auto;
+	padding: 10px 25px;
+	color: #fff;
+	border-radius: 10px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.btn:hover {
+	background: #c0bfbf;
+}
+.title {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.banner {
+	background-image: url(./lojay.png);
+	background-size: cover;
+	padding: 10px 25px;
+	height: 220px;
+	border-radius: 10px;
+}
+.lower {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.buttons {
+	display: flex;
+	gap: 5px;
+}
+.lower-title {
+	color: #f4f5fe;
+}
+.play-btn {
+	border: none;
+	background: #000;
+	color: #fff;
+	padding: 10px 25px;
+	border-radius: 15px;
+	font-size: 12px;
+	transition: all 0.4s ease-in-out;
+	cursor: pointer;
+}
+.play-btn:hover {
+	background: #fff;
+	color: #000;
+}
+.follow-btn {
+	border: 1px solid #000;
+	background: transparent;
+	color: #000;
+	padding: 10px 25px;
+	border-radius: 15px;
+	font-size: 12px;
+	cursor: pointer;
+	transition: all 0.4s ease-in-out;
+}
+.follow-btn:hover {
+	background: #e5e5e5;
+	border: none;
+}
+.num {
+	font-size: 18px;
+	font-weight: 500;
+}
+.listeners {
+	font-size: 13px;
+	font-weight: 300;
+}
+
+.category-grid {
+	list-style: none;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+	grid-gap: 20px;
+}
+
+.category-item {
+	text-align: center;
+}
+
+.category-image {
+	width: 100%;
+	height: auto;
+}
+
+.category-name {
+	margin-top: 5px;
+}
+.category-grid small {
+	font-size: 12px;
+	color: #a19dac;
+}
+
+.playbar {
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	bottom: 0;
+	justify-content: center;
+	margin: auto;
+	height: 20px;
+	background-color: #fff;
+	padding: 25px 15px;
+}
+
+.icon-container {
+	padding: 5px;
+	height: 20px;
+	width: 20px;
+	border-radius: 5px;
+	background-color: #f4f5fe;
+}
+.icons {
+	color: #676669;
+	font-weight: 100;
+}
+.iconz {
+	display: flex;
+	align-items: center;
+	gap: 2px;
+}
+.iconzz {
+	display: flex;
+	gap: 5px;
+}
+.iconzzz {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+.icon-containeer {
+	padding: 5px;
+	height: 20px;
+	width: 20px;
+	border-radius: 5px;
+	background-color: #f4f5fe;
+}
+.icons-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.playlist-table {
+	display: flex;
+	gap: 40px;
+	align-items: center;
+	justify-content: space-between;
+}
